@@ -1,0 +1,62 @@
+body{
+   background-color: antiquewhite;
+}
+.buttons{
+    display: flex;
+    flex-wrap:wrap;
+    align-self: center;
+    align-items: center;    
+    justify-content: space-around;
+    gap: 15px;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 250px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+button.happy{
+    background-color: rgb(255, 255, 83);
+}
+button.happy:hover {
+    background-color: rgb(255, 255, 170);
+}
+button.sad{
+    background-color: rgb(177, 177, 244);
+}
+button.sad:hover{
+    background-color: rgb(205, 205, 250);
+
+}
+button.inlove{
+    background-color: rgb(255, 161, 177);
+}
+button.inlove:hover{
+    background-color: rgb(255, 193, 203);
+}
+button.relaxed{
+    background-color: rgb(169, 248, 169);
+}
+button.relaxed:hover{
+    background-color: rgb(223, 253, 223);
+}
+button.pumped{
+    background-color: rgb(248, 78, 78);
+}
+button.pumped:hover{
+    background-color: rgb(253, 135, 135);
+}
+.spoti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}

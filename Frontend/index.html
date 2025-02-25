@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodiFy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+    <h1>Welcome!</h1>
+    <p>Select your Current Vibe</p>
+<body>
+    
+    <div class = "buttons">
+    <button onclick="happyPlaylist()" style = "font-size: 25px; " class="happy">Happy</button>
+    <button onclick="sadPlaylist()"style = "font-size: 25px; "class="sad">Sad</button>
+    <button onclick="lovePlaylist()" style = "font-size: 25px; "class="inlove">Inlove</button>
+    <button onclick="relaxedPlaylist()" style = "font-size: 25px; "class="relaxed">Relaxed</button>
+    <button onclick="pumpedPlaylist()" style = "font-size: 25px; "class="pumped">Pumped</button>
+    </div>
+
+    <div class="spoti" id="spotifyContainer">
+        <iframe id="spotifyPlayer" width="500" height="100" 
+            src="" 
+            frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+        </iframe>
+    </div>
+
+
+    <script src = "app.js"></script>
+</body> 
+</html>
